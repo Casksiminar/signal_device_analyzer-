@@ -1,0 +1,6 @@
+lsusb
+iwconfig
+sudo apt-get update
+sudo apt-get install wireless-tools
+g++ -o wifi_info wifi_info.cpp
+./wifi_info
