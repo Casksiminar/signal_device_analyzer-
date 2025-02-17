@@ -1,0 +1,19 @@
+  {
+    "configurations": [
+      {
+        "name": "RaspberryPi-Debug",
+        "generator": "Ninja",
+        "configurationType": "Debug",
+        "buildRoot": "${projectDir}\\out\\build\\${name}",
+        "installRoot": "${projectDir}\\out\\install\\${name}",
+        "cmakeCommandArgs": "-DCMAKE_TOOLCHAIN_FILE=C:/Path/To/arm-toolchain.cmake",
+        "buildCommandArgs": "",
+        "ctestCommandArgs": "",
+        "inheritEnvironments": [ "linux" ],
+        "remoteMachineName": "raspberrypi.local", // or IP address
+        "remoteMachinePort": 22,
+        "remoteConnectionOptions": "username=pi;password=raspberry"
+      }
+    ]
+  }
+
